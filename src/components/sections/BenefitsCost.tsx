@@ -9,7 +9,7 @@ const BenefitsCost = () => {
       {/* Header */}
       <div className="text-center mb-16">
         <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 dark:text-white">
-          💰 Fresh Helper Cost
+          💰 <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">Fresh Helper Cost</span>
         </h2>
         <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
           Details of expenses for hiring a housekeeper (Costs of Hiring Helper)

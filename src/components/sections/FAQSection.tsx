@@ -42,7 +42,7 @@ export const FAQSection = () => {
     <section className="py-4 sm:py-8 bg-white dark:bg-gray-900 transition-colors duration-300">
       <Container>
         <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 dark:text-white text-center mb-12">
-          ❓ Frequently Asked Questions
+          ❓<span className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent"> Frequently Asked Questions</span>
         </h2>
 
         <div className="max-w-3xl mx-auto space-y-4">

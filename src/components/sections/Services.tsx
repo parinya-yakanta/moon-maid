@@ -51,7 +51,7 @@ export const Services = () => {
                   className="h-36 w-auto"
                 />
                 </div>
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-2">
+              <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-2 text-pink-600 dark:text-pink-400">
                 {service.title}
               </h3>
               <p className="text-gray-600 dark:text-gray-300 text-sm">

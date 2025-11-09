@@ -91,7 +91,7 @@ export const AboutUs = ({ imgPos = "left" }: AboutUsProps) => {
               imgPos === "right" ? "lg:order-1" : ""
             }`}
           >
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-extrabold leading-tight text-center lg:text-left text-gray-900 dark:text-white">
               {data.title}
             </h2>
             <p className="mt-3 sm:mt-4 text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
